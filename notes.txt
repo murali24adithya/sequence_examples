@@ -1,0 +1,5 @@
+These are notes from running the sequence examples in both z3 and cvc4
+
+- seq_difficult_1: z3 does not terminate, cvc4 returns unknown. Correct answer: unsat
+- seq_concat_correctness: both return unsat. Correct answer: unsat
+- seq_concat_simplesatproblem: z3 returns sat, cvc4 returns unknown. Correct answer: sat
